@@ -1,0 +1,14 @@
+[
+    {
+        "country": "Argentina",
+        "slug": "argentina",
+        "capital": "Buenos Aires",
+        "countryCode": "AR"
+    },
+    {
+        "country": "Canada",
+        "slug": "canada",
+        "capital": "Ottawa",
+        "countryCode": "CA"
+    }
+]
