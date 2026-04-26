@@ -1,0 +1,8 @@
+{
+  "nodeModulesDir": "auto",
+  "tasks": {
+    "api": "cd backend && deno run --allow-net --allow-read server.ts",
+    "web": "cd frontend && deno install && deno run -A npm:vite --host --port 5173",
+    "dev": "deno task api & deno task web"
+  }
+}

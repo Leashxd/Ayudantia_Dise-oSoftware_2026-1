@@ -1,0 +1,30 @@
+[
+  {
+    "rut": "14.928.367-2",
+    "nombre": "Camila Rojas",
+    "tipo": "Estudiante",
+    "cantidadRamos": 6,
+    "aniosUniversidad": 3
+  },
+  {
+    "rut": "19.304.815-7",
+    "nombre": "Martín Morales",
+    "tipo": "Estudiante",
+    "cantidadRamos": 5,
+    "aniosUniversidad": 2
+  },
+  {
+    "rut": "22.517.604-1",
+    "nombre": "Valentina Soto",
+    "tipo": "Estudiante",
+    "cantidadRamos": 7,
+    "aniosUniversidad": 4
+  },
+  {
+    "rut": "17.663.249-5",
+    "nombre": "Diego Fernández",
+    "tipo": "Estudiante",
+    "cantidadRamos": 4,
+    "aniosUniversidad": 1
+  }
+]

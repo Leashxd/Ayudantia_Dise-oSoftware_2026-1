@@ -1,0 +1,15 @@
+# Dependencias
+node_modules/
+frontend/node_modules/
+
+# Builds / cache
+frontend/dist/
+frontend/.vite/
+
+# Locks/caches opcionales locales
+npm-debug.log*
+
+# Markdown existentes (mantener README)
+DOCUMENTACION.md
+PASO_A_PASO_DESDE_CERO.md
+!README.md
