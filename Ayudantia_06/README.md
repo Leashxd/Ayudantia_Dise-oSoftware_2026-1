@@ -68,9 +68,8 @@ los eventos aparecen en la lista.
 | Protocolo    | ws:// (upgrade desde HTTP)         | HTTP/HTTPS normal                    |
 | Uso tipico   | Chat, tiempo real, streaming       | Notificaciones de eventos (pagos)    |
 
-## Nota sobre tu duda del historial
+## Nota sobre websocket
 
-Antes cada pestaña tenia su propia conexion y el servidor solo respondia al
-emisor (`socket.send`). Por eso no se compartia nada. Ahora el backend guarda
-todas las conexiones en un `Set` y hace **broadcast** a todas, ademas de enviar
-el historial a cada pestaña nueva al conectarse.
+Existen dos modos, el websocket no necesariamente implica realizar un broadcast a todos, esta es una de las opciones. De ello, tambien podriamos realizar un websocket 1 a 1, lo cual quiere decir que se podria tener una conversacion privada con otro usuario.
+
+En caso de tener un websocket 1 a 1 se utiliza `socket.send(mensaje, id_usuario)`
