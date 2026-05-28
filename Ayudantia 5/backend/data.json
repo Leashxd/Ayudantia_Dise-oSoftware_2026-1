@@ -26,5 +26,12 @@
     "tipo": "Estudiante",
     "cantidadRamos": 4,
     "aniosUniversidad": 1
+  },
+  {
+    "rut": "17.663.249-5",
+    "nombre": "BENJA",
+    "tipo": "Estudiante",
+    "cantidadRamos": 4,
+    "aniosUniversidad": 1
   }
 ]
